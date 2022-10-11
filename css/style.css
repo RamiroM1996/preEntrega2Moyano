@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+} 
+
+body {
+    background-color: #fff59d;
+}
+
+/* -----------------------------------Header ------------------------------------------- */
+
+.header {
+    background-color: #1b3039;
+    display: flex;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+} 
+
+.header .logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.header .logo img {
+    height: 70px;
+    width: auto;
+    border-radius: 50px;
+    
+} 
+
+.header .nav-links {
+    list-style: none;
+    
+} 
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 10px;
+    
+} 
+
+.header .nav-links a {
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;
+} 
+
+.header i {
+    color: #eceff1;
+    margin: 0 20px;
+} 
+
+.header input {
+    display: flex;
+    border-radius: 10px;    
+} 
+
+.header .search-btn i {
+    display: flex;
+    margin-left: 10px;
+    cursor: pointer;
+} 
+
+/* -----------------------------------Index Main------------------------------------------- */
+
+
+main {
+    background-color: rgb(28, 99, 206);
+    display: flex; 
+    width: 100%; 
+    height: 600px; 
+} 
+
+main .principalSection {
+    display: flex;
+}
+
+
+.image img {
+    width: 500px;
+    height: 350px; 
+    margin-top: 120px;
+    margin-right: 100px;
+}
+
+main .principalSection .legend {
+    margin: 200px;
+} 
+
+main .principalSection .legend button {
+    margin-top: 40px;
+    border-radius: 50px;
+    background-color: rgb(230, 144, 15); 
+    cursor: pointer;
+} 
+/* -----------------------------------Products------------------------------------------- */
+ 
+.product-section {
+    height: auto;
+}
+
+
+.product-1 img {
+     width: 150px;
+     height: 150px;
+     
+ }  
+
+
+ h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 10px;
+ }
+
+ .products {
+    width: 100%;
+ }
+
+ .products .products-container {
+    display: flex;
+    justify-content: center;
+    
+} 
+
+ .products .products-container .product-1 {
+    display: inline;
+    margin: 50px 30px;    
+ }
+   
+ 
+/* -----------------------------------About  ------------------------------------------- */
+
+.about-section {
+    height: auto;
+}
+
+.about .about-1 {
+    display: flex;
+    margin: 10px 25px;
+} 
+
+.about .about-1 .about-img-1 {
+    display: flex;
+    margin-left: 40px;
+    height: 300px;
+} 
+
+.about .about-1 .about-img-2 {
+    display: flex;
+    height: 250px;
+    margin-right: 30px;
+    
+}
+
+.about .about-text-1 {
+    display: flex;
+    margin: 25px 100px;
+} 
+
+/* ----------------------------------- clients------------------------------------------- */
+
+
+.clients-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.clients-container .client {
+    display: inline;
+    margin-left: 100px;
+} 
+
+.clients-container .client h2 {
+    display: flex;
+    margin-left: 25px;
+} 
+
+.clients-container .client h3 {
+    display: flex;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.clients-container .client img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    
+}  
+/* -----------------------------------Contact------------------------------------------- */
+ 
+.contact {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    margin-top: 100px;
+} 
+
+
+
+.form h2 {
+    margin-bottom: 10px;
+}
+
+.contact .form .name-surname {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: -10px;
+} 
+.contact .form .name-surname input {
+    display: flex;
+    height: 25px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.contact .name-surname {
+    display: inline;
+
+} 
+
+.contact .form .email input {
+    
+    display: flex;
+    border-radius: 20px;
+    height: 25px;
+    width: 365px;
+} 
+
+.contact .form .message textarea{
+    border-radius: 20px;
+}
+
+.contact .form input {
+    border-radius: 20px;
+} 
+/* -----------------------------------Acount------------------------------------------- */
+
+
+.acount {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    
+} 
+
+.acount .form-acount input {
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 10px;
+} 
+
+.acount .form-acount h2 {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+/* -----------------------------------Footer------------------------------------------- */
+
+
+.footer {
+    display: flex; 
+    width: 100%; 
+    height: 150px; 
+} 
+
+
+/*------------------------------ Newsletter---------------------------------------------  */ 
+.newsletter {
+    background-color: red;
+    display: inline; 
+    width: 600px;
+} 
+
+.newsletter h2 {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+} 
+
+.newsletter input {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 10px;
+    border-radius: 20px;
+
+}
+
+/*------------------------------ Social---------------------------------------------  */ 
+
+.social {
+    display: inline;
+    background-color: green;
+    width: 600px;
+
+} 
+
+.social h2 {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.social .social-icons {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px ;
+    justify-content: space-around;
+    font-size: 35px ;
+   
+} 
+/*------------------------------ App-Information---------------------------------------------  */ 
+.app-information {
+    background-color: aqua;
+    display: inline;
+    width: 600px;
+} 
+
+.app-information h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.app-information .app-icons  {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px ;
+} 
+
+.app-information .app-icons i {
+    display: inline;
+    margin: 10px 20px; 
+    font-size: 35px;
+}
+
+
+
