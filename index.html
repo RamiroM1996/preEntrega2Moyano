@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,44 +10,47 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>E-commerce</title>
 </head>
-
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="../Desafio1/img/e-commerce.png" alt="logo de la marca">
+    <header>
+        <div class="container">
+           <nav class="nav_checkbox">
+                <a href="#" class="logo"><h2>LOGO</h2></a>
+                <input type="checkbox" id="tab-nav" class="tab-nav">
+                <label for="tab-nav" class="label">
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                </label>
+                <ul class="content_nav">
+                    <li><a href="/SegundaEntrega/desafio2/index.html">Home</a></li> 
+                    <li><a href="/SegundaEntrega/desafio2/pages/products.html">Products</a></li>     
+                    <li><a href="/SegundaEntrega/desafio2/pages/about.html">About</a></li>     
+                    <li><a href="/SegundaEntrega/desafio2/pages/contact.html">Contact</a></li>     
+                    <li><a href="/SegundaEntrega/desafio2/pages/acount.html">Acount</a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i><i class="fa-solid fa-magnifying-glass"></i></a></li>  
+                    <li><a href="#"></i></a></li>
+                </ul>            
+           </nav> 
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="/PrimerEntrega/Desafio1/index.html">Home</a></li>
-                <li><a href="/PrimerEntrega/Desafio1/pages/products.html">Products</a></li>
-                <li><a href="/PrimerEntrega/Desafio1/pages/about.html">About</a></li>
-                <li><a href="/PrimerEntrega/Desafio1/pages/contact.html">Contact</a></li>
-                <li><a href="/PrimerEntrega/Desafio1/pages/acount.html">Acount</a></li>
-            </ul>
-        </nav>
-        <i class="fa-solid fa-cart-shopping"></i>
-        <input type="search" placeholder="Buscar">
-        <div class="search-btn">
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-    </header>
-    <main>
-        <section class="principalSection">
+    </header>  
+    <main class="content_section">
+        <section class="principal_section">
             <div class="legend">
                 <h1>Enterate de todos nuestros nuevos Productos!</h1>
-                <button><a href="#">Todo lo Nuevo!</a></button>
+                <button><a href="#"><span>Todo lo Nuevo!</span></a></button>
             </div>
             <div class="image">
-                <img src="../Desafio1/img/e-commerce-example.jpg" alt="imagen/carusel">
+                <img src="./img/image_1.jpg" alt="imagen/carusel">
             </div>
         </section>
     </main>
+
     <footer class="footer">
         <div class="newsletter">
             <h2>Suscribite a nuestro newsletter!</h2>
             <input type="text" placeholder="Name">
             <input type="text" placeholder="Your Email">
-            <input type="submit">
+            <input type="submit" id="submit">
         </div>
 
         <div class="social">
@@ -71,7 +73,5 @@
         </div>
 
     </footer>
-
 </body>
-
 </html>

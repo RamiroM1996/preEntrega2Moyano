@@ -13,61 +13,54 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="../img/e-commerce.png" alt="logo de la marca">
-        </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="/PrimerEntrega/Desafio1/index.html">Home</a></li>
-                <li><a href="/PrimerEntrega/Desafio1/pages/products.html">Products</a></li>
-                <li><a href="/PrimerEntrega/Desafio1/pages/about.html">About</a></li>
-                <li><a href="/PrimerEntrega/Desafio1/pages/contact.html">Contact</a></li>
-                <li><a href="/PrimerEntrega/Desafio1/pages/acount.html">Acount</a></li>
-            </ul>
-        </nav>
-        <i class="fa-solid fa-cart-shopping"></i>
-        <input type="search" placeholder="Buscar">
-        <div class="search-btn">
-            <i class="fa-solid fa-magnifying-glass"></i>
+    <header>
+        <div class="container">
+            <nav class="nav_checkbox">
+                <a href="#" class="logo">
+                    <h2>LOGO</h2>
+                </a>
+                <input type="checkbox" id="tab-nav" class="tab-nav">
+                <label for="tab-nav" class="label">
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                </label>
+                <ul class="content_nav">
+                    <li><a href="/SegundaEntrega/desafio2/index.html">Home</a></li>
+                    <li><a href="/SegundaEntrega/desafio2/pages/products.html">Products</a></li>
+                    <li><a href="/SegundaEntrega/desafio2/pages/about.html">About</a></li>
+                    <li><a href="/SegundaEntrega/desafio2/pages/contact.html">Contact</a></li>
+                    <li><a href="/SegundaEntrega/desafio2/pages/acount.html">Acount</a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i><i
+                                class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href="#"></i></a></li>
+                </ul>
+            </nav>
         </div>
     </header>
+
     <main>
+        <form action="" class="form">
+            <h2>Contacto</h2>
 
-        <section class="contact">
+            <p type="Nombre"><input placeholder="Introduzca su nombre"></p>
+            <p type="Email"><input placeholder="Introduzca su Email"></p>
+            <p type="Mensaje"><input placeholder="Deje su mensaje aqui.."></p>
+            <button>Enviar Mensaje</button>
 
-            <form class="form" action="#" method="POST" enctype="multipart/form-data">
-                <h2>Como podemos ayudarte ?</h2>
-                <div class="option">
-                    <select name="option" id="">
-                        <option value="">Seleccione una opcion</option>
-                        <option value="">opcionx</option>
-                    </select>
-                    <h2>Completá el siguiente formulario.</h2>
-                </div>
-                <div class="name-surname">
-                    <input class="input" name="name" type="text" placeholder="Nombre" /><br />
-                    <input class="input" name="name" type="text" placeholder="Apellido" /><br />
-                </div>
-                <div class="email">
-                    <input id="email" class="input" name="email" type="text" placeholder="Email" /><br />
-                </div>
-                <div class="message">
-                    <textarea rows="7" cols="30"></textarea><br />
-                </div>
-                <input id="submit_button" type="submit" value="Send email" />
-            </form>
-
-        </section>
-
-
+            <div class="fafa-icons">
+                <span class="fa fa-phone"></span> 223 5433281
+                <span class="fa fa-envelope-o"></span> e-commerce@gmail.com
+            </div>
+        </form>
     </main>
+
     <footer class="footer">
         <div class="newsletter">
             <h2>Suscribite a nuestro newsletter!</h2>
             <input type="text" placeholder="Name">
             <input type="text" placeholder="Your Email">
-            <input type="submit">
+            <input type="submit" id="submit">
         </div>
 
         <div class="social">
@@ -90,7 +83,6 @@
         </div>
 
     </footer>
-
 </body>
 
 </html>
